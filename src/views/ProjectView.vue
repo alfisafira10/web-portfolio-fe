@@ -19,7 +19,7 @@ export default {
 <template>
   <section>
     <br />
-    <h2>My Projects</h2>
+    <h1>My Projects</h1>
 
     <div class="grid-container">
       <template v-for="(img, index) in g$list" :key="index">
