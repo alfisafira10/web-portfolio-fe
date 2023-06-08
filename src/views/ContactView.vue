@@ -25,14 +25,15 @@ export default {
 
 <template>
     <div class="contact">
-        <h1>{{ title }}</h1>
+        <h1>Contact me</h1>
         <form Asubmit.prevent="submit">
-            <BaseInput v-model="input.name" name="name" label="Name" type="text" />
-            <BaseInput v-model="input.email" name="email" label="Email" type="email" />
+            <BaseInput v-model="input.name" name="Name" label="Name" type="text" />
+            <BaseInput v-model="input.email" name="Email" label="Email" type="email" />
             <br />
-            <span>Message :</span>
-            <p style="white-space: pre-line">{{ message }}</p>
-            <textarea v-model="message" placeholder="Your message..."> </textarea>
+            <label for="message">
+                <p>Message</p>
+                <textarea v-model="input.message" name="message" placeholder="Your message..."></textarea>
+            </label>
             <br />
             <button type="submit">Submit</button>
         </form>

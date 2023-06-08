@@ -22,6 +22,8 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <template #heading>Basic Portfolio</template>
 
     Basic portfolio from Basic Web Programming course.
+    <br/>
+    <p>See Project : <a href="https://alfisafira10.github.io/web-portfolio/" target="_blank">Basic Portfolio</a></p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -32,6 +34,8 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 
     A simple website with case studies in the 
     fictional convection industry, namely Our Tailor.
+    <br/>
+      <p>See Project : <a href="https://alfisafira10.github.io/our-tailor-website/" target="_blank">Our Tailor</a></p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -41,5 +45,7 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
     <template #heading>Buahin</template>
 
     Fruit type detection app from my team's final project on MSIB Batch 3.
+    <br/>
+      <p>See Project : <a href="https://buahin.vercel.app/" target="_blank">Buahin</a></p>
   </WelcomeItem>
 </template>
