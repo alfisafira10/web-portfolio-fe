@@ -19,8 +19,11 @@ export default {
 </script>
 
 <template>
+    <br/>
     <article>
         <h2>{{ detail.title }}</h2>
+        <br/>
+        <p>Preview : </p>
         <ImageComp :src="detail.img" />
     </article>
 </template>
