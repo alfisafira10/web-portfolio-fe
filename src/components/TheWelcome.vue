@@ -6,6 +6,7 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 </script>
 
 <template>
+  <br />
   <h1>About Me</h1>
   <p>Hello, my name is Alfi. I'm from Gresik, Indonesia. </p>
   <p>I'm a student majoring in Information Systems. Interested and motivated in seeking 
