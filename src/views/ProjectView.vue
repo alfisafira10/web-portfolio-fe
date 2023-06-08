@@ -18,6 +18,7 @@ export default {
 
 <template>
   <section>
+    <br />
     <h2>My Projects</h2>
 
     <div class="grid-container">

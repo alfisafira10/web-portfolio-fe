@@ -25,6 +25,7 @@ export default {
 
 <template>
     <div class="contact">
+        <br />
         <h1>Contact me</h1>
         <form Asubmit.prevent="submit">
             <BaseInput v-model="input.name" name="Name" label="Name" type="text" />
